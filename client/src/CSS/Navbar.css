@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #4B0082;
+    padding: 15px;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0; 
+}
+
+.nav-item {
+    margin: 0 15px; 
+}
+
+.nav-item a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    transition: transform 0.3s, color 0.3s; 
+}
+
+.nav-item a:hover {
+    transform: translateY(-5px) scale(1.1); 
+    color: #e9000c; 
+}

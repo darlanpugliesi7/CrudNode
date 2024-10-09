@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS TaskManager;
+USE TaskManager;
+
+CREATE TABLE tasks (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    descricao TEXT NOT NULL,
+    status ENUM('concluida', 'pendente') DEFAULT 'pendente'
+);

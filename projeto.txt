@@ -1,0 +1,13 @@
+navbar {
+    home (GET | READ) {
+        Mostrar as tarefas e alterar o status (pendente ou realizada)
+    }
+
+    Tarefas Concluidas (GET | READ) {
+        Mostrar as tarefas concluidas 
+    }
+
+    Gerenciar Tarefas (POST, PUT, DELETE | CREATE, UPDATE, DELETE) {
+        Criar, Atualizar, e Deletar
+    }
+}

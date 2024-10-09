@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #000000, #4B0082);
+}
+
+.TaskManager {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Leve transparência para combinar com o fundo */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+    max-width: 400px; /* Largura máxima do formulário */
+    margin-top: 80px; /* Espaço para a navbar fixa */
+}
+
+.register-container {
+    padding: 20px;
+}
+
+.register-container h1 {
+    text-align: center;
+    color: #4B0082; /* Roxo escuro */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.register-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333; /* Cor do texto */
+}
+
+.register-container input,
+.register-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s; /* Transição suave para a borda */
+}
+
+.register-container input:focus,
+.register-container select:focus {
+    border-color: #4B0082; /* Mudança de cor ao focar */
+}
+
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4B0082; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-container button:hover {
+    background-color: #e9000c; /* Cor ao passar o mouse */
+}
